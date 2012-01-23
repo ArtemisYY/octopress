@@ -92,11 +92,12 @@ end
 
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
-task :new_post, :title do |t, args|
+task :new_post, :title, :later do |t, args|
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   mkdir_p "#{source_dir}/#{posts_dir}"
-  args.with_defaults(:title => 'new-post')
+  args.with_defaults(:title => 'new-post', :later => false)
   title = args.title
+  open = !args.later
   filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
@@ -111,18 +112,21 @@ task :new_post, :title do |t, args|
     post.puts "categories: "
     post.puts "---"
   end
-  `#{editor} #{filename}`
+  if open
+     `#{editor} #{filename}`
+  end
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
 desc "Create a new page in #{source_dir}/(filename)/index.#{new_page_ext}"
-task :new_page, :filename do |t, args|
+task :new_page, :filename, :later do |t, args|
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
-  args.with_defaults(:filename => 'new-page')
+  args.with_defaults(:filename => 'new-page', :later => false)
   page_dir = [source_dir]
   if args.filename.downcase =~ /(^.+\/)?(.+)/
     filename, dot, extension = $2.rpartition('.').reject(&:empty?)         # Get filename and extension
     title = filename
+    open = !args.later
     page_dir.concat($1.downcase.sub(/^\//, '').split('/')) unless $1.nil?  # Add path to page_dir Array
     if extension.nil?
       page_dir << filename
@@ -148,7 +152,9 @@ task :new_page, :filename do |t, args|
       page.puts "footer: true"
       page.puts "---"
     end
+    if open
   	`#{editor} #{filename}`
+    end
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
   end
