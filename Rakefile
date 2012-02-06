@@ -153,7 +153,7 @@ task :new_page, :filename, :later do |t, args|
       page.puts "---"
     end
     if open
-  	`#{editor} #{filename}`
+  	`#{editor} #{file}`
     end
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
