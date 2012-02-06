@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-[{% img alignleft https://lh6.googleusercontent.com/-sV36BOQZmBU/Ty-UkQa9g2I/AAAAAAAAAsU/Lem71NMnTiQ/s144/IMG_2364-copy-206x300.jpg 206 300 '@Houston' 'Zhiwei in Houston's house, photoed by Dong Chen' %}](https://lh3.googleusercontent.com/-Gkrh5yasZ3M/Ty-U2fWC9MI/AAAAAAAAAsY/2uvEO9kaeuo/s800/IMG_2364-copy.jpg)
+[{% img alignleft https://lh6.googleusercontent.com/-sV36BOQZmBU/Ty-UkQa9g2I/AAAAAAAAAsU/Lem71NMnTiQ/s144/IMG_2364-copy-206x300.jpg '@Houston' 'Zhiwei in Houston's house, photoed by Dong Chen' %}](https://lh3.googleusercontent.com/-Gkrh5yasZ3M/Ty-U2fWC9MI/AAAAAAAAAsY/2uvEO9kaeuo/s800/IMG_2364-copy.jpg)
 
 ### Zhiwei Xiao
 
@@ -21,7 +21,7 @@ Photos: [2010.2 - 2010.4 (cycling)](http://s781.photobucket.com/albums/yy94/xoyo
 
 #### My Work
 
-Github: @xoyowde
+Github: [@xoyowde](https://github.com/xoyowade/)
 
 #### Contact Me
 
