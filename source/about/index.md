@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "about"
+title: "about me"
 date: 2012-02-06 16:59
 comments: false
 sharing: true
@@ -13,9 +13,9 @@ footer: true
 
 #### My Life
 
-Twitter: @xoyowade
+Twitter: [@xoyowade](https://twitter.com/#!/xoyowade)
 
-Weibo: @xoyowade
+Weibo: [@xoyowade](http://weibo.com/xoyowade)
 
 Photos: [2010.2 - 2010.4 (cycling)](http://s781.photobucket.com/albums/yy94/xoyowade), [2011.7 - Now, (@Houston)](https://picasaweb.google.com/108384009954782878786)
 
