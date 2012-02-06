@@ -7,8 +7,7 @@ sharing: true
 footer: true
 ---
 
-[{% img alignleft 
-https://lh6.googleusercontent.com/-sV36BOQZmBU/Ty-UkQa9g2I/AAAAAAAAAsU/Lem71NMnTiQ/s800/IMG_2364-copy-206x300.jpg '@Houston' 'Zhiwei in Houston's house, photoed by Dong Chen' %}](https://lh3.googleusercontent.com/-Gkrh5yasZ3M/Ty-U2fWC9MI/AAAAAAAAAsY/2uvEO9kaeuo/s800/IMG_2364-copy.jpg)
+[{% img alignleft https://lh6.googleusercontent.com/-sV36BOQZmBU/Ty-UkQa9g2I/AAAAAAAAAsU/Lem71NMnTiQ/s800/IMG_2364-copy-206x300.jpg '@Houston' 'Zhiwei in Houston's house, photoed by Dong Chen' %}](https://lh3.googleusercontent.com/-Gkrh5yasZ3M/Ty-U2fWC9MI/AAAAAAAAAsY/2uvEO9kaeuo/s800/IMG_2364-copy.jpg)
 
 ### Zhiwei Xiao
 
