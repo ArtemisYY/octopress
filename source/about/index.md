@@ -19,7 +19,6 @@ Weibo: [@xoyowade](http://weibo.com/xoyowade)
 
 Photos: [2010.2 - 2010.4 (cycling)](http://s781.photobucket.com/albums/yy94/xoyowade), [2011.7 - Now, (@Houston)](https://picasaweb.google.com/108384009954782878786)
 
-
 #### My Work
 
 Github: [@xoyowde](https://github.com/xoyowade/)
