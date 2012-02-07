@@ -5,7 +5,7 @@ date: 2012-02-07 18:33
 comments: true
 categories: 杂七杂八
 ---
-为什么要用Octopress以及如何迁移[小z](http://blog.yxwang.me/2011/11/migrated-to-octopress/)和[p哥](http://chenyufei.info/blog/2011-12-13/migrate-to-octopress/)的博客基本都讲得差不多了，这里只做点补充。
+前几天跟风把博客从WordPress搬到Octopress。为什么要用Octopress以及如何迁移[小z](http://blog.yxwang.me/2011/11/migrated-to-octopress/)和[p哥](http://chenyufei.info/blog/2011-12-13/migrate-to-octopress/)的博客基本都讲得差不多了，这里只做点补充。
 
 整个迁移过程很简单：
 
