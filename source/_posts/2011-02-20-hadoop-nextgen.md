@@ -15,6 +15,7 @@ type: post
 最近雅虎开发者博客发了一篇介绍<a title="The Next Generation of Apache Hadoop MapReduce" href="http://yhoo.it/fDoTzt" target="_blank">Hadoop重构计划</a>的文章。他们发现当集群的规模达到4000台机器的时候，Hadoop遭遇到伸缩性的瓶颈。目前Hadoop各个模块的紧耦合使得在现有设计的基础上的继续改进举步维艰。这一点早已在社区内达成共识，目前他们正准备开始对Hadoop进行重构。
 
 新架构的主要思想是把原来JobTracker的功能一分为二：ResourceManager管理资源的分配，ApplicationMaster管理任务监控和调度。ResourceManager与原有的JobTracker类似，作为整个集群的控制中心；而ApplicationMaster则是每个application都有一个单独的实例，application是用户提交的一组任务，它可以由一个或多个job组成。每台slave运行一个NodeManager实例，功能类似于原来的TaskTracker。
+<!--more-->
 
 <a href="http://ydn.zenfs.com/blogs/22/MapReduce_NextGen.jpg"><img class="alignnone" title="Hadoop Nextgen Architecture" src="http://ydn.zenfs.com/blogs/22/MapReduce_NextGen.jpg" alt="Hadoop Nextgen Architecture" width="624" height="386"></a>
 
