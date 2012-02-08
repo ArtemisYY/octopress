@@ -11,7 +11,7 @@ categories: 杂七杂八
 
 * 安装[octopress](http://octopress.org/docs/setup/)
 
-* 博文迁移：我用的是小z改进过的[wordpressdotcom.rb](https://gist.github.com/1403202)
+* 博文迁移：我用的是小z改进过的[migrate.rb](https://gist.github.com/1403202)
 
 * 导入评论：原来的WordPress里安装[disqus](http://disqus.com/)插件，在插件设置里把WordPress评论导进disqus
 
