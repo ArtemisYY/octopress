@@ -3,7 +3,7 @@ layout: post
 title: "在HP TouchPad上安装Android 4.0"
 date: 2012-02-10 22:43
 comments: true
-categories: 
+categories: 杂七杂八
 ---
 暑假赶上HP挥泪甩卖，拼到TouchPad一只。TouchPad的原生系统是webOS，虽然上面的应用及其稀少，但也有其独到之处：醒目而又不烦人的**通知系统**，富有操作感的**卡片式任务管理**，以及对**Flash**的完美支持。而且在后来的一次版本升级里还加入了一个彩蛋，当你以某一个特定方位查看任务卡片时，往下拉卡片会有弹弓被拉紧的声效，松指让卡片飞出的时候就能听到愤怒的小鸟也欢乐地“hui”出来。
 
