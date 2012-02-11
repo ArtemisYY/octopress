@@ -5,7 +5,7 @@ date: 2012-02-10 22:43
 comments: true
 categories: 杂七杂八
 ---
-暑假赶上HP挥泪甩卖，拼到TouchPad一只。TouchPad的原生系统是webOS，虽然上面的应用及其稀少，但也有其独到之处：醒目而又不烦人的**通知系统**，富有操作感的**卡片式任务管理**，以及对**Flash**的完美支持。而且在后来的一次版本升级里还加入了一个彩蛋，当你以某一个特定方位查看任务卡片时，往下拉卡片会有弹弓被拉紧的声效，松指让卡片飞出的时候就能听到愤怒的小鸟也欢乐地“hui”出来。
+暑假赶上HP挥泪甩卖，拼到TouchPad一只。TouchPad的原生系统是webOS，虽然上面的应用及其稀少，但也有其独到之处：醒目而又不烦人的**通知系统**，富有操作感的**卡片式任务管理**，以及对**Flash**的完美支持。而且在后来的一次版本升级里还加入了一个彩蛋，当你以某一个特定方位查看任务卡片时，往下拉卡片会有弹弓被拉紧的声效，松指让卡片飞出的时候就能听到后面有只愤怒的小鸟也欢乐地“hui”出来。
 
 无奈应用确实少得可怜，前天终于抽空把它刷成webOS和Android双系统。目前移植得比较成功的是CyanogenMod(CM)这个发行版，最新版本是CM9，基于Android 4.0。网上的教程大多很啰嗦，中文的也都还是CM7(Android 2.3)版本，所以简单记录下。我是在Mac OS X 10.7.3下刷机的，Windows和Linux的步骤也都类似。
 
@@ -35,6 +35,7 @@ categories: 杂七杂八
 重启TouchPad，在屏幕变暗时按住*增大音量键*(也有说法是要同时按住电源键，不过我只按增大音量键就行了，可能是TouchPad版本问题吧)，直到屏幕出现USB连接图示的时候才松手。这时候要等一下让电脑安装驱动。
 
 #### 4. 刷机  
+在终端执行下面这个命令，其中`/path/to/ACMEInstaller2`是ACMEInstaller2文件路径
 
 ```
 novacom boot mem:// < /path/to/ACMEInstaller2
@@ -49,6 +50,9 @@ A: 这个可能是硬件问题，换根USB线，换个电压大点的USB插口�
 
 Q: Android下连接电脑没法识别出USB存储设备。  
 A: Settings -> Storage -> 注意到右上角那个小菜单没有 -> USB Settings -> 选上MTP模式。
+
+Q: Mac下还是看不到挂载的USB设备。  
+A: 装一个[Android File Trasfer](http://www.android.com/filetransfer)
 
 Q: 怎么刷完机就充不上电啊！  
 A: 最近天气冷，把TouchPad丢被窝里暖暖再充。
