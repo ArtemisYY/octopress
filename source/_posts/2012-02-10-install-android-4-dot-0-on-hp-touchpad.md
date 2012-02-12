@@ -2,7 +2,6 @@
 layout: post
 title: "在HP TouchPad上安装Android 4.0"
 date: 2012-02-10 22:43
-author: Zhiwei Xiao
 comments: true
 categories: 杂七杂八
 ---
