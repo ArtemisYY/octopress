@@ -2,6 +2,7 @@
 layout: post
 title: "在HP TouchPad上安装Android 4.0"
 date: 2012-02-10 22:43
+author: Zhiwei Xiao
 comments: true
 categories: 杂七杂八
 ---
@@ -32,7 +33,7 @@ categories: 杂七杂八
 这三个文件复制到TouchPad根目录下的`cminstall`(一定要叫这个名字)这个目录去(需要自己新建目录)。
 
 #### 3. 进入开发模式  
-重启TouchPad，在屏幕变暗时按住*增大音量键*(也有说法是要同时按住电源键，不过我只按增大音量键就行了，可能是TouchPad版本问题吧)，直到屏幕出现USB连接图示的时候才松手。这时候要等一下让电脑安装驱动。
+重启TouchPad，在屏幕变暗时按住**增大音量键**(也有说法是要同时按住电源键，不过我只按增大音量键就行了，可能是TouchPad版本问题吧)，直到屏幕出现USB连接图示的时候才松手。这时候要等一下让电脑安装驱动。
 
 #### 4. 刷机  
 在终端执行下面这个命令，其中`/path/to/ACMEInstaller2`是ACMEInstaller2文件路径
