@@ -12,7 +12,7 @@ categories: 读书笔记
 书里提到一个常见的认识误区，也是我平时容易忽视的：
 
 **用执行速度是否线性提高来衡量多处理器的性能**  
-Measuring performance of multiprocessors by linear speedup versus execution time.
+> Measuring performance of multiprocessors by linear speedup versus execution time.
 
 我们经常用同一段代码来比较不同系统的性能，但其实这是不公平的。因为并行版本的程序在单处理器上可能比串行版本要慢得多，相当于你让单处理器去做它不擅长的事情。**公平的做法应该是比较各个处理器上各自最优的版本**。但其实这样子则会带来算法差异的问题，因为并行版本往往采用针对并行优化过的算法，这样就是拿苹果和橙子比较了。为了区分这两种情况，作者提出相对加速比（relative speedup，用同样的程序测试出来的加速比）和真实加速比（true speedup，分别用各个处理器上最优的程序测试出来的加速比）这两个概念。
 
