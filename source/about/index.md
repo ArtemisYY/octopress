@@ -25,5 +25,5 @@ Github: [@xoyowde](https://github.com/xoyowade/)
 
 #### Contact Me
 
-Email: zwxiao@gmail.com
+Email: <zwxiao@gmail.com>
 
