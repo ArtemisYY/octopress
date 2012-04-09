@@ -8,7 +8,7 @@ categories: 杂七杂八
 前几天把博客从WordPress搬到Octopress。为什么要用Octopress以及如何迁移[小z](http://blog.yxwang.me/2011/11/migrated-to-octopress/)和[p哥](http://chenyufei.info/blog/2011-12-13/migrate-to-octopress/)的博客基本都讲得差不多了，这里只做点补充。
 
 整个迁移过程很简单：
-
+<!-- more -->
 * 安装[octopress](http://octopress.org/docs/setup/)
 
 * 博文迁移：我用的是小z改进过的[migrate.rb](https://gist.github.com/1403202)
@@ -30,6 +30,7 @@ categories: 杂七杂八
 ### 导航栏
 `rake new_page`添加页面之后是不会自动生成导航栏链接的，得手动修改`/source/_includes/custom/navigation.html`。
 
+---
 2月8日更新：
 ### Emacs
 我平时一般用的是Emacs，加上这个[扩展函数](https://github.com/gfreezy/octopress-emacs)之后可以直接在Emacs里创建博文和部署网站。我[修改过Rakefile](https://github.com/xoyowade/octopress)里的`new_post`和`new_page`任务，让它们自动打开Mou编辑新建页面；而在Emacs里执行这两个任务的时候就不需要自动打开Mou，所以在调用`rake new_post`和`rake new_page`的时候还需要加个开关参数，这是我[修改后的扩展](https://gist.github.com/1760275)。
