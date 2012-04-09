@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "about me"
+title: "About Me"
 #date: 2012-02-06 16:59
 comments: false
 sharing: true
@@ -22,6 +22,8 @@ Photos: [2010.2 - 2010.4 (cycling)](http://s781.photobucket.com/albums/yy94/xoyo
 #### My Work
 
 Github: [@xoyowde](https://github.com/xoyowade/)
+
+<a href="http://ppi.fudan.edu.cn/zhiwei_xiao" title="ppi" target="_blank">Homepage</a> @ PPI, Fudan University
 
 #### Contact Me
 
