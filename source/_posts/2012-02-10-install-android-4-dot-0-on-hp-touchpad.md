@@ -57,10 +57,20 @@ A: 装一个[Android File Trasfer](http://www.android.com/filetransfer)
 Q: 怎么刷完机就充不上电啊！  
 A: 最近天气冷，把TouchPad丢被窝里暖暖再充。
 
-### 参考  
-[1] [[Release][Alpha0.6] CyanogenMod 9 Touchpad][1]  
-[2] [How to install Android 4.0 on the HP TouchPad (CyanogenMod 9 Alpha)][2]  
+---
+3月4日更新：  
+### 升级至更新版的CM9
+目前CM9的移植已经更新至[Alpha 2][cm9-2]版本，解决了硬解码问题。只要把新的CM9内核放到TouchPad上，然后重启TouchPad进入ClockworkMod模式，执行Wipe cache partition，清除缓存后执行Install zip from sdcard，选择新的CM9内核，执行后重启后就进入新的系统了。具体的升级过程可以参考这个[教程][upgrade]和[视频][upgrade-video]。
 
-[1]: http://rootzwiki.com/topic/15509-releasealpha06-cyanogenmod-9-touchpad/ "[Release][Alpha0.6] CyanogenMod 9 Touchpad"
-[2]: http://liliputing.com/2012/01/how-to-install-android-4-0-on-the-hp-touchpad-cyanogenmod-9-alpha.html
+### 参考  
+[1] [[Release][Alpha0.6] CyanogenMod 9 Touchpad][cm9-0.6]  
+[2] [How to install Android 4.0 on the HP TouchPad (CyanogenMod 9 Alpha)][how-to]  
+[3] [[Release][Alpha2] CyanogenMod 9 Touchpad][cm9-2]
+
+
+[cm9-0.6]: http://rootzwiki.com/topic/15509-releasealpha06-cyanogenmod-9-touchpad/ "[Release][Alpha0.6] CyanogenMod 9 Touchpad"
+[how-to]: http://liliputing.com/2012/01/how-to-install-android-4-0-on-the-hp-touchpad-cyanogenmod-9-alpha.html
   "How to install Android 4.0 on the HP TouchPad (CyanogenMod 9 Alpha)"
+[cm9-2]: http://rootzwiki.com/topic/18843-releasealpha2-cyanogenmod-9-touchpad/ "[Release][Alpha2] CyanogenMod 9 Touchpad"
+[upgrade]: http://wiki.cyanogenmod.com/wiki/HP_Touchpad:_Full_Update_Guide "HP Touchpad: Full Update Guide"
+[upgrade-video]: http://www.youtube.com/watch?v=i34DePhXvnE "Install ICS Cyanogenmod CM9 Android on the HP Touchpad"
