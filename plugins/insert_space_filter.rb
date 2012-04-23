@@ -8,8 +8,9 @@ module InsertSpaceFilter
       en = '[a-zA-Z0-9]'
       han = '\p{Han}'
       link = '[\[\(][^\]\)]*[\]\)]'
-      @he_regex = Regexp.new("(#{han})(#{en})")  # 汉e
-      @eh_regex = Regexp.new("(#{en})(#{han})")  # e汉
+      del = '[\_\*]*'
+      @he_regex = Regexp.new("(#{han}#{del})(#{en})")  # 汉e 汉_/*e
+      @eh_regex = Regexp.new("(#{en})(#{del}#{han})")  # e汉 e_/*汉
       @hne_regex = Regexp.new("(#{han})(\\[#{en})")  # 汉[e
       @enh_regex = Regexp.new("(#{en})(\\[#{han})")  # e[汉
       @hle_regex = Regexp.new("(\\[.*?#{han}\\]#{link})(#{en})")  # [...汉](...)e
