@@ -9,6 +9,8 @@ categories: 杂七杂八
 
 无奈应用确实少得可怜，前天终于抽空把它刷成webOS和Android双系统。目前移植得比较成功的是CyanogenMod(CM)这个发行版，最新版本是CM9，基于Android 4.0。网上的教程大多很啰嗦，中文的也都还是CM7(Android 2.3)版本，所以简单记录下。我是在Mac OS X 10.7.3下刷机的，Windows和Linux的步骤也都类似。
 
+<!-- more -->
+
 #### 0. 先下载下面这几个文件/工具：
 * ACMEInstaller2  
 * update-cm-9.0.0-RC0-Touchpad-alpha0.6-fullofbugs.zip  
